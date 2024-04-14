@@ -89,19 +89,19 @@
     background-image: url("../../images/creative.jpg");
   }
   .events__wrapper .event:nth-child(2) {
-    background-image: url("../../images/dishes.jpg");
+    background-image: url("../../images/ship.jpg");
   }
   .events__wrapper .event:nth-child(3) {
-    background-image: url("../../images/creative.jpg");
+    background-image: url("../../images/coffee.jpg");
   }
   .events__wrapper .event:nth-child(4) {
     background-image: url("../../images/saint-petersburg.jpg");
   }
   .events__wrapper .event:nth-child(5) {
-    background-image: url("../../images/table.jpg");
+    background-image: url("../../images/comfort.jpg");
   }
   .events__wrapper .event:nth-child(6) {
-    background-image: url("../../images/meal-food.jpg.jpg");
+    background-image: url("../../images/business-class.jpg");
   }
 
   .event__title {
