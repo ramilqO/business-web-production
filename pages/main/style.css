@@ -164,7 +164,7 @@
 
   .address {
     height: 70vh;
-    background-image: url("../../images/transfer.jpg"); /* Замените 'your-image.jpg' на путь к вашей картинке */
+    background-image: url("../../images/peter.jpg"); /* Замените 'your-image.jpg' на путь к вашей картинке */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
