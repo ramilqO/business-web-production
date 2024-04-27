@@ -1,0 +1,100 @@
+@import url("./css/navbar.css");
+
+@media screen and (min-width: 320px) {
+  .services {
+    text-align: center;
+    padding: 20px 0;
+    background: #fff;
+  }
+
+  .services__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 20px;
+  }
+
+  .services__wrapper .item:nth-child(1) {
+    background-image: url("./images/creative.jpg");
+  }
+  .services__wrapper .item:nth-child(2) {
+    background-image: url("./images/ship.jpg");
+  }
+  .services__wrapper .item:nth-child(3) {
+    background-image: url("./images/coffee.jpg");
+  }
+  .services__wrapper .item:nth-child(4) {
+    background-image: url("./images/saint-petersburg.jpg");
+  }
+  .services__wrapper .item:nth-child(5) {
+    background-image: url("./images/comfort.jpg");
+  }
+  .services__wrapper .item:nth-child(6) {
+    background-image: url("./images/business-class.jpg");
+  }
+
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .item__text {
+    background: rgba(232, 232, 232, 0.941);
+    width: 90%;
+    padding: 20px;
+    height: 50%;
+    border-radius: 10px;
+  }
+
+  .item__text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .item:nth-child(1) {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5f90ff6a5f71bf45a0c0256c/1606871553343-3NUCEHB5S1N3VAEVSLGT/autism+bubble.jpg");
+  }
+  .item:nth-child(2) {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5f90ff6a5f71bf45a0c0256c/1606871553343-3NUCEHB5S1N3VAEVSLGT/autism+bubble.jpg");
+  }
+  .item:nth-child(3) {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5f90ff6a5f71bf45a0c0256c/1606871553343-3NUCEHB5S1N3VAEVSLGT/autism+bubble.jpg");
+  }
+  .item:nth-child(4) {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5f90ff6a5f71bf45a0c0256c/1606871553343-3NUCEHB5S1N3VAEVSLGT/autism+bubble.jpg");
+  }
+  .item:nth-child(5) {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5f90ff6a5f71bf45a0c0256c/1606871553343-3NUCEHB5S1N3VAEVSLGT/autism+bubble.jpg");
+  }
+  .item:nth-child(6) {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5f90ff6a5f71bf45a0c0256c/1606871553343-3NUCEHB5S1N3VAEVSLGT/autism+bubble.jpg");
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    .services__wrapper {
+        padding: 0;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .item {
+        width: 33%;
+        transition: 0.3s all ease-in;
+        cursor: pointer;
+    }
+
+    .item:hover {
+        transform: scale(1.03);
+    }
+
+    .services h1 {
+        font-size: 34px;
+    }
+}
